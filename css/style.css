@@ -1,6 +1,215 @@
-h1,h2,h3,h4,h5,h6,p{
+@font-face {
+         font-family:"Franklin Gothic Book";
+        src: url(../fonts/FRABK.TTF);
+}
+@font-face {
+         font-family:"Franklin Gothic Medium Cond";
+        src: url(../fonts/FRAMDCN.TTF);
+}
+@font-face {
+         font-family:"Arial";
+        src: url(../fonts/arial.ttf);
+}
+@font-face {
+         font-family:"Arial Black";
+        src: url(../fonts/ariblk.ttf);
+}
+body{
+    background: linear-gradient(black, darkblue);
+}
+/*RESET CSS*/
+h1,h2,h3,h4,h5,h6,p,figure,a{
     margin: 0;
     padding: 0;
+    font-weight: normal;
+    color: white;
+    font-family: "Franklin Gothic Book";
 }
-    font-smooth: never;
-    -webkit-font-smoothing : none;
+.container{
+	width: 920px;
+	margin: 0 auto;
+}
+#encabezado{
+	height: 150px;
+	display: flex;
+	justify-content: center;
+	align-content: center;
+	align-items: center;
+}
+#encabezado figure{
+	margin: 0;
+}
+#encabezado h1{ font-size:1em; font-family: "Arial Black"; color: blue;}
+#encabezado h2{ font-size: 0.8em; font-family: "Arial"; font-weight: lighter;}
+#encabezado h3{ font-size: 3em; font-family: "Franklin Gothic Medium Cond"; font-weight: bold;}
+#menu{
+	height: 50px;
+	display: flex;
+	justify-content: center;
+	}
+#busqueda{
+    display: inline-block;
+}
+#contenido{
+	}
+#nota-importante{
+	min-height: 300px;
+    margin: 20px 0;
+	}
+#nota-importante>img{
+    align-content: center;
+    border: 1px solid blue;
+	}
+#articulos{
+	min-height: 300px;
+	width: 700px;
+	display: inline-block;
+	float: left;
+	}
+#articulos article{
+    display: flex;
+    background-image: url('../images/separador.png');
+    background-repeat: no-repeat;
+    background-position: bottom;
+    padding-bottom: 10px;
+    margin-bottom: 20px;
+}
+.titulo-articulo{
+    font-size: 1.4em;
+    line-height: 0.9em;
+    padding-bottom: 5px;
+    font-family: "Franklin Gothic Book";
+}
+.parrafo{
+    padding-bottom: 5px;
+    padding-right: 10px;
+    font-family: "Franklin Gothic Book";
+}
+.imagen-articulo{
+    position: relative;
+}
+#barra-lateral {
+    height: 300px;
+    width: 220px;
+    display: inline-block;
+    float: right;
+}
+
+#barra-lateral img {
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+#pie{
+	height: 300px;
+	clear: both;
+	}
+#menu>ul>li>a:hover {border: 1px solid rgb(6,100,255); background-color: rgba(6,100,255,20); box-shadow: 0 0 10px rgba(6,100,255,20); transition:0.5s;}
+#menu>ul>li>a {border: 1px solid rgb(6,100,255); padding: 10px; transition:0.5s;}
+#menu>ul>li {display: inline-block;}
+#menu li{list-style-type: none; padding:0;}
+#menu li{text-decoration: none; padding: 0; display: inline-block;}
+#menu li ul{display:none;}
+#menu li a{text-decoration:none; color:White;}
+.boton {
+    background-color: rgba(6,100,255,0) ; transition:0.5s;
+    border: 1px solid rgb(6,100,255);
+    display: inline-block;
+    padding: 3px;
+}
+.boton>div {
+    padding: 2px 5px;
+}
+.boton p {
+    color: white;
+    font-size: 1em;
+}
+.boton:hover{
+    box-shadow: 0 0 10px rgba(6,100,255,20);
+    background-color: rgba(6,100,255,20); transition:0.5s;
+}
+.flexible {
+    display: flex;
+}
+section {
+    display: flex;
+    justify-content: space-between;
+}
+#programas{
+    display: flex;
+    justify-content: center;
+    margin-bottom:  20px;
+}
+#ClassicShell{
+    width:  382px;
+    height: 314px;
+    display: inline-block;
+    text-indent: -9999px;
+    transition: 0.3s;
+}
+#ClassicShell{
+    background: url('../images/classicshell.png')0 0;
+}
+#ClassicShell:hover{
+    background: url('../images/classicshell.png')-383px 0;
+}
+#infopagina{
+    text-align: center ;
+    border-top: 1px double blue;
+    border-bottom: 1px double blue;
+    padding: 5px 0;
+    color: darkgray;
+}
+#politicas abbr{
+    cursor: help;
+    border-bottom: 1px dotted lightgray;
+}
+#neptune{
+    background-image: url('../images/neptune.png');
+    height: 94px;
+    width: 54px;
+    display: block;
+    text-indent: -9999px;
+    margin: auto;
+}
+#NTlogo{
+    margin: 30px 0;
+    position: relative;
+}
+#neptune::before, #neptune::after {
+    content: "";
+    border-top: double 1px blue;
+    display: block;
+    position: absolute;
+    height:  3px;
+    width: 340px;
+    top:    30px;
+}
+#neptune::after {
+    right: 0px;
+}
+#neptune::before {
+    left: 0;
+}
+#infobajo p{
+    text-align: center;
+    text-decoration:none;
+    color: lightblue;
+    font-size: 0.8em;
+}
+.articulos-titulo-seccion {
+    position: relative;
+    font-size: 2em;
+    font-family: "Franklin Gothic Book";
+    font-weight: bold;
+    padding-bottom: 10px;
+}
+.articulos-titulo-seccion::after {
+    content: "";
+    border-top: 3px double Blue;
+    display: block;
+    position: absolute;
+    height:  3px;
+    width: 560px;
+    top:    20px;
+    right: 0px;
+}
