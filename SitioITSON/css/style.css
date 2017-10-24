@@ -87,7 +87,7 @@ h1,h2,h3,h4,h5,h6,p,figure,ul,li{
 }
 .imagen-articulo{
     position: relative;
-    float:left;
+    float: center;
 }
 #barra-lateral {
     height: 300px;
