@@ -91,11 +91,10 @@ h1,h2,h3,h4,h5,h6,p,figure,ul,li{
 }
 #barra-lateral {
     height: 300px;
-    width: 220px;
+    width: 150px;
     display: inline-block;
     float: right;
 }
-
 #barra-lateral img {
     margin-bottom: 10px;
     margin-top: 10px;
