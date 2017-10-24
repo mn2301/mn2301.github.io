@@ -68,7 +68,6 @@ h1,h2,h3,h4,h5,h6,p,figure,ul,li{
 	}
 #articulos article{
     display: flex;
-    background-image: url('../images/separador.png');
     background-repeat: no-repeat;
     background-position: bottom;
     padding-bottom: 10px;
