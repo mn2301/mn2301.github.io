@@ -97,7 +97,7 @@ h1,h2,h3,h4,h5,h6,p,figure,ul,li{
     display: inline-block;
     float: right;
 }
-#barra-lateral p {size: 1.2em}
+#barra-lateral p {font-size: 1.2em}
 #barra-lateral li{list-style-type: none; text-decoration:none; color: rgb(6,100,255);}
 #barra-lateral a{text-decoration: none; color:rgb(6,100,255);}
 #pie{
