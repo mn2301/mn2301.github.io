@@ -99,9 +99,9 @@ h1,h2,h3,h4,h5,h6,p,figure,ul,li{
     display: inline-block;
     float: right;
 }
-#Indice p {font-size: 1.2em}
-#Indice ul{list-style-type: none; text-decoration:none; color: rgb(6,100,255);}
-#Indice a{text-decoration: none; color:rgb(6,100,255);}
+#barra-lateral p {font-size: 1.2em}
+#barra-lateral ul{list-style-type: none; text-decoration:none; color: rgb(6,100,255);}
+#barra-lateral a{text-decoration: none; color:rgb(6,100,255);}
 #pie{
 	height: 300px;
 	clear: both;
