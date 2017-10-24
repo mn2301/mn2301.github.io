@@ -39,7 +39,7 @@ h1,h2,h3,h4,h5,h6,p,figure,ul,li{
 #encabezado figure{
 	margin: 0;
 }
-#encabezado h1{ font-size:1em; font-family: "Arial Black"; color: blue;}
+#encabezado h1{ font-size:1em; font-family: "Trebuchet MS"; color: rgb(0, 89, 255);}
 #encabezado h2{ font-size: 0.8em; font-family: "Arial"; font-weight: lighter;}
 #encabezado h3{ font-size: 3em; font-family: "Franklin Gothic Medium Cond"; font-weight: bold;}
 #menu{
