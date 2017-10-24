@@ -51,8 +51,6 @@ h1,h2,h3,h4,h5,h6,p,figure,ul,li{
 #busqueda{
     display: inline-block;
 }
-#contenido{
-	}
 #nota-importante{
 	min-height: 300px;
     margin: 20px 0;
