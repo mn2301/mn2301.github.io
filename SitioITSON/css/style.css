@@ -90,7 +90,7 @@ h1,h2,h3,h4,h5,h6,p,figure,ul,li{
 }
 #barra-lateral {
     height: 300px;
-    width: 150px;
+    width: 200px;
     display: inline-block;
     float: right;
 }
@@ -214,5 +214,5 @@ section {
     height:  3px;
     width: 350px;
     top:    20px;
-    right: 0px;
+    right: 10px;
 }
