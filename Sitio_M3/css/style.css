@@ -3,6 +3,9 @@
     width: 900px;
     height: 200px;
 }
+#m_imagen{
+    width:200px;
+}
 #btm{
     flex-direction: column;
 }
