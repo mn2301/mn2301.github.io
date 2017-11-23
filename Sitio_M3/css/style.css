@@ -33,3 +33,15 @@
 .flexible {
     display: flex;
 }
+.container{
+    width: 900px;
+    margin-right: 10px;
+	margin: 0 auto;
+}
+#encabezado{
+	height: 170px;
+	display: flex;
+	justify-content: center;
+	align-content: center;
+	align-items: center;
+}
