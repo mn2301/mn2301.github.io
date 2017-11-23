@@ -6,7 +6,7 @@
 #btm{
     flex-direction: column;
 }
-#menu>ul>li>a:hover {border: 3px solid rgb(0, 0, 0); background-color: rgba(220,220,220,20); box-shadow: 0 0 10px rgba(220,220,220,20); transition:0.5s;}
+#menu>ul>li>a:hover {border: 3px solid rgb(0, 0, 0); background-color: rgba(220,220,220,20); transition:0.5s;}
 #menu>ul>li>a {border: 3px solid rgb(0, 0, 0); padding: 10px; transition:0.5s;}
 #menu>ul>li {display: inline-block;}
 #menu li{list-style-type: none; padding:0;}
