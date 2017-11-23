@@ -1,3 +1,11 @@
+h1,h2,h3,h4,h5,h6,p,figure,ul,li{
+    margin: 0;
+    padding: 0;
+    font-family: "Arial";
+}
+body{
+    background: linear-gradient(beige, khaki);
+}
 #encabezado{
     display:flex;
     width: 900px;
