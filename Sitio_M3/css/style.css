@@ -1,0 +1,20 @@
+#encabezado{
+    display:flex;
+    width: 900px;
+    height: 200px;
+}
+#btm{
+    flex-direction: column;
+}
+#menu{height: 75px;}
+#menu>ul>li {display: inline-block;}
+#menu li{list-style-type: none; padding:0;}
+#menu li{text-decoration: none; padding: 0; display: inline-block;}
+#menu li ul{display:none;}
+#menu li a{text-decoration:none; color:Black;}
+.boton {
+    background-color: rgb(255, 255, 255) ; transition:0.5s;
+    border: 3px solid rgb(0, 0, 0);
+    display: inline-block;
+    padding: 3px;
+}
