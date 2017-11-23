@@ -6,16 +6,16 @@
 #btm{
     flex-direction: column;
 }
-#menu>ul>li>a:hover {border: 1px solid rgb(6,100,255); background-color: rgba(6,100,255,20); box-shadow: 0 0 10px rgba(6,100,255,20); transition:0.5s;}
-#menu>ul>li>a {border: 1px solid rgb(6,100,255); padding: 10px; transition:0.5s;}
+#menu>ul>li>a:hover {border: 3px solid rgb(0, 0, 0); background-color: rgba(220,220,220,20); box-shadow: 0 0 10px rgba(220,220,220,20); transition:0.5s;}
+#menu>ul>li>a {border: 3px solid rgb(0, 0, 0); padding: 10px; transition:0.5s;}
 #menu>ul>li {display: inline-block;}
 #menu li{list-style-type: none; padding:0;}
 #menu li{text-decoration: none; padding: 0; display: inline-block;}
 #menu li ul{display:none;}
-#menu li a{text-decoration:none; color:White;}
+#menu li a{text-decoration:none; color:rgb(0, 0, 0);}
 .boton {
-    background-color: rgba(6,100,255,0) ; transition:0.5s;
-    border: 1px solid rgb(6,100,255);
+    background-color: rgba(255, 255, 255, 0) ; transition:0.5s;
+    border: 1px solid rgb(0, 0, 0);
     display: inline-block;
     padding: 3px;
 }
