@@ -56,6 +56,8 @@ body{
 }
 #barra_lateral #indice{
     width: 200px;
+}
+.static {
     position: fixed;
 }
 #articulos{
